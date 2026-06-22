@@ -37,7 +37,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           # Upload entire repository
-          path: '/shubham-shell-example/'
+          path: '/shubham-shell-example'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v5
